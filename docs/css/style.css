@@ -1,0 +1,257 @@
+/* General styles */
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #6482AD;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #7FA1C3;
+    border-style: solid;
+}
+
+/* Logo styling */
+.nav-bar-logo {
+    flex-basis: 5%;
+}
+
+.nav-bar-logo img {
+    max-width: 100%;/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #85A3C4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #6C8EAD;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+    background-color: #4E6C8A;
+}
+
+main {
+    padding: 20px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6C8EAD;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.personal-info h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.personal-info h3 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+.description {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.description h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+    height: auto;
+    border-radius: 25%;
+}
+
+/* Navbar buttons */
+.nav-link {
+    display: flex;
+    gap: 20px;
+    flex-basis: 60%;
+}
+
+.nav-link a {
+    text-decoration: none;
+}
+
+.nav-link button {
+    background-color: #40a2e3;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.nav-link button:hover {
+    background-color: white;
+}
+
+/* Section styling */
+.PT {
+    display: flex;
+    justify-content: center; /* Centers the entire content horizontally */
+    align-items: center; /* Aligns items vertically */
+    padding: 20px;
+}
+
+.text-container {
+    flex: 5.5; /* Gives the text container more space compared to the image */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the text container's content horizontally */
+    justify-content: center; /* Centers the content vertically */
+    gap: 20px; /* Adds spacing between the boxes */
+}
+
+.text-container .box,
+.text-container .box1 {
+    background-color: #e0e0e0;
+    padding: 15px 20px;
+    max-width: 300px; /* Optional: Limits the width of each box */
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-style: solid;
+}
+
+/* Image styling */
+.img {
+    flex: 1; /* Gives the image section flexibility */
+    display: flex;
+    justify-content: flex-end; /* Aligns the image to the left */
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img img {
+    max-width: 100%; /* Ensures the image doesn't exceed its container */
+    height: auto;
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow to the image */
+}
+
+/* Large text box styling */
+.box2 {
+    background-color: #dcdcdc;
+    padding: 50px;
+   margin: 25px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-style: solid;
+}
+
+/*bionote*/
+
+.PT-1 {
+
+    justify-content: center; /* Centers the entire content horizontally */
+    align-items: center; /* Aligns items vertically */
+    padding: 20px;
+}
+.PT-1 h1 {
+    text-align: center;
+    font-size: 75px;
+}
+
+.box3 {
+    background-color: #dcdcdc;
+    padding: 50px;
+   margin: 25px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-style: solid;
+   
+}
+
+
+
+/* achievements*/
+
+
+.PT-2 {
+    display: flex;
+    flex-direction: row-reverse; /* Stacks the title and content vertically */
+    align-items: center; /* Centers the content horizontally */
+    justify-content: center; /* Centers the content vertically */
+    gap: 100px; /* Adds spacing between the title and the content */
+    padding: 20px;
+  /* Ensures it spans the full height of the viewport */
+}
+
+.PT-2 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: row; /* Ensures the text inside is stacked */
+    justify-content: flex-start;
+    align-items: center; /* Centers the text horizontally */
+    background-color: #e0e0e0; /* Light gray background for the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    text-align: left; /* Aligns text inside to the left */
+    line-height: 1.6; /* Improves readability */
+    color: #333;
+    padding: 50px;
+    border-style: solid;
+}
+
