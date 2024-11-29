@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Salentes' Portfolio</title>
+       <style>
+        /* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #6482AD;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #7FA1C3;
+}
+
+/* Logo styling */
+.nav-bar-logo {
+    flex-basis: 5%;
+}
+
+.nav-bar-logo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25%;
+}
+
+/* Navbar buttons */
+.button {
+    display: flex;
+    gap: 20px;
+    flex-basis: 60%;
+}
+
+.button button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #40A2E3;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button button:hover {
+    background-color: white;
+}
+
+/* Section styling */
+.PT {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #6482AD;
+}
+
+.text-container {
+    display: flex;
+    flex-basis: 75%;
+    flex-direction: column;
+    gap: 20px;
+    width: 50px;
+}
+
+.text-container .box, .text-container .box1 {
+    background-color: #e0e0e0;
+    padding: 20px;
+
+}
+
+/* Image styling */
+.img {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Large text box styling */
+.box2 {
+    background-color: #dcdcdc;
+    padding: 50px;
+   margin: 25px;
+    text-align: center;
+    font-size: 1.5em;
+   
+}
+
+       </style>
+    </head>
+    <body>
+        <div class="container">
+        <div class="nav-bar-logo">
+            <a class ="navbar-logo" id="logo"><img src="2.png" width="100px"></a>
+        </div>
+        <div class="button">
+          
+            <button>Home</button>
+            <button>TEXT</button>
+            <button>TEXT</button>
+        </div>
+    </div>
+    <section class="PT"> 
+        <div class="text-container">
+            <div class="box">
+                <p>TEXT 1</p>
+            </div>
+            <div class="box1">
+                <p>TEXT 2</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="Picture1.png" alt="PICTURE">
+        </div>
+    </section>
+     
+   <div class="box2">
+    <p>TEXT</p>
+   </div>
+
+    </body>
+    </html>
